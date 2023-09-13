@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APISpaceSRM", "APISpaceSRM\APISpaceSRM.csproj", "{2E00E709-2802-4D1C-B4B2-DD42526D0054}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E00E709-2802-4D1C-B4B2-DD42526D0054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E00E709-2802-4D1C-B4B2-DD42526D0054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E00E709-2802-4D1C-B4B2-DD42526D0054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E00E709-2802-4D1C-B4B2-DD42526D0054}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73FE1DD6-C964-4A95-AB80-FBB54535D4E5}
+	EndGlobalSection
+EndGlobal
