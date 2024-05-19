@@ -40,4 +40,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ${{ github.workspace }}/publish
-        server-dir: \user29121.realhost-free.net\wwwroot  # Вкажіть шлях на сервері, куди мають бути розгорнуті файли
+        server-dir: /user29121.realhost-free.net/wwwroot/  # Вкажіть шлях на сервері, куди мають бути розгорнуті файли
