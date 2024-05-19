@@ -25,10 +25,11 @@ jobs:
 
     # Відновлення залежностей
     - name: Restore dependencies
-      run: dotnet restore APISpaceSRM.sln
+      run: dotnet restore ${{ env.Solution_Name }}
 
     # Збірка проекту
     - name: Build
-      run: dotnet build APISpaceSRM.sln --configuration Release --no-restore
+      run: dotnet build ${{ env.Solution_Name }} --configuration Release --no-restore
+
 
     
