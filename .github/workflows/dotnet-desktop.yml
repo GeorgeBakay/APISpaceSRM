@@ -1,4 +1,4 @@
-name: ASP.NET Web API CI
+name: ASP.NET Web API CI2
 
 on:
   push:
