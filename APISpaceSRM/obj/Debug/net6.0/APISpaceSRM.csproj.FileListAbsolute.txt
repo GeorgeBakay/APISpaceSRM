@@ -90,3 +90,4 @@ C:\Users\George\source\repos\APISpaceSRM\APISpaceSRM\obj\Debug\net6.0\APISpaceSR
 C:\Users\George\source\repos\APISpaceSRM\APISpaceSRM\obj\Debug\net6.0\ref\APISpaceSRM.dll
 C:\Users\George\source\repos\APISpaceSRM\APISpaceSRM\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\George\source\repos\APISpaceSRM\APISpaceSRM\bin\Debug\net6.0\Twilio.dll
+C:\Users\George\source\repos\APISpaceSRM\APISpaceSRM\obj\Debug\net6.0\APISpaceSRM.sourcelink.json

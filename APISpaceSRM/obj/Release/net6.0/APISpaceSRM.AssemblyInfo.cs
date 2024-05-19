@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APISpaceSRM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+225952832a60a2aaab08f2a879c9b21185c1a021")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad329d047841f42987757f2efc477a985a7a3cbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("APISpaceSRM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APISpaceSRM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
