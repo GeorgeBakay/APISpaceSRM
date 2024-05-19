@@ -15,21 +15,21 @@ jobs:
       Solution_Name: 'APISpaceSRM.sln'  # Вкажіть ваше ім'я файлу рішення
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Set up .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '6.0.x'  # Вкажіть версію .NET 6
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '6.0.x'  # Вкажіть версію .NET 6
 
-    # Відновлення залежностей
-    - name: Restore dependencies
-      run: dotnet restore ${{ env.Solution_Name }}
+      # Відновлення залежностей
+      - name: Restore dependencies
+        run: dotnet restore ${{ env.Solution_Name }}
 
     # Збірка проекту
-    - name: Build
-      run: dotnet build ${{ env.Solution_Name }} --configuration Release --no-restore
+      - name: Build
+        run: dotnet build ${{ env.Solution_Name }} --configuration Release --no-restore
 
 
     
