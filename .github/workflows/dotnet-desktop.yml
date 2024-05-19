@@ -32,4 +32,5 @@ jobs:
         run: dotnet build ${{ env.Solution_Name }} --configuration Release --no-restore
 
 
-    
+      - name: List files in the repository
+        run: dir
