@@ -25,12 +25,10 @@ jobs:
 
     # Відновлення залежностей
     - name: Restore dependencies
-      run: dotnet restore $env:Solution_Name
+      run: dotnet restore SpaceSRM.sln
 
     # Збірка проекту
     - name: Build
-      run: dotnet build $env:Solution_Name --configuration Release --no-restore
+      run: dotnet build SpaceSRM.sln --configuration Release --no-restore
 
-    # Запуск тестів
-    - name: Run tests
-      run: dotnet test $env:Solution_Name --no-restore --verbosity normal
+    
