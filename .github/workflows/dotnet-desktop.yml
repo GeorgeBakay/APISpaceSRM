@@ -25,10 +25,10 @@ jobs:
 
     # Відновлення залежностей
     - name: Restore dependencies
-      run: dotnet restore SpaceSRM.sln
+      run: dotnet restore APISpaceSRM.sln
 
     # Збірка проекту
     - name: Build
-      run: dotnet build SpaceSRM.sln --configuration Release --no-restore
+      run: dotnet build APISpaceSRM.sln --configuration Release --no-restore
 
     
