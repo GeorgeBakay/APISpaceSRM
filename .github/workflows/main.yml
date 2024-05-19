@@ -42,8 +42,8 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ${{ github.workspace }}/publish/
         server-dir: /user29121.realhost-free.net/wwwroot/  # Вкажіть шлях на сервері, куди мають бути розгорнуті файли
-    rollback:
-       runs-on: windows-latest
+  rollback:
+    runs-on: windows-latest
     if: failure()  # Виконати rollback, якщо попередній job зазнав невдачі
 
     steps:
